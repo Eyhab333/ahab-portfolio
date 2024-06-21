@@ -4,13 +4,13 @@ function PortfolioItem({ title, imgUrl, stack, link, sourceCode }) {
 
   return (
     <div className="border border-stone-100 rounded-lg overflow-hidden dark:border-gray-400 shadow-2xl">
-      <a target="_blank" href={link}>
-        {/* <img
+      {/* <a target="_blank" href={link}>
+        <img
           src={imgUrl}
           alt="portfolio"
           className="w-full h-36 md:h-48 object-cover cursor-pointer"
-        /> */}
-      </a>
+        />
+      </a> */}
 
       <div className="w-full p-4 flex flex-col content-between items-stretch">
 
@@ -29,9 +29,9 @@ function PortfolioItem({ title, imgUrl, stack, link, sourceCode }) {
 
 
 
-        <div className="flex items-center justify-between flex-wrap font-semibold">
+        <div className="flex items-center  justify-between flex-wrap font-semibold">
           <a className="cursor-pointer underline flex-1" target="_blank" href={link}>
-            Live Preview
+            Live Site
           </a>
           <a
             className="cursor-pointer text-sm flex-1"

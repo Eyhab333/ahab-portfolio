@@ -7,7 +7,14 @@ function Intro() {
       <p className="text-base md:text-xl mb-3 font-medium">
         Full-Stack Web Developer
       </p>
-      <p className="text-sm max-w-xl mb-6 font-bold"></p>
+      
+      <div className="flex justify-center flex-raw text-center pt-5 pb-6">
+        <p className="text-sm max-w-xl mb-6 font-bold mr-2">Contact: </p>
+        <a href="mailto:hello@ahabfadl.com">
+          <p className="text-sm max-w-xl mb-6 font-bold underline underline-offset-auto">
+             hello@ahabfadl.com</p>
+        </a>
+        </div>
     </div>
   );
 }
