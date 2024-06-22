@@ -14,7 +14,11 @@ function Intro() {
           <p className="text-sm max-w-xl mb-6 font-bold underline underline-offset-auto">
              hello@ahabfadl.com</p>
         </a>
-        </div>
+      </div>
+      <div>
+        <p className="text-l max-w-xl mb-1 font-bold">Take a look at my work </p>
+        <i class="material-icons">arrow_downward</i>
+      </div>
     </div>
   );
 }
