@@ -8,16 +8,16 @@ function Intro() {
         Full-Stack Web Developer
       </p>
       
-      <div className="flex justify-center flex-raw text-center pt-5 pb-6">
-        <p className="text-sm max-w-xl mb-6 font-bold mr-2">Contact: </p>
+      <div className="flex justify-center flex-raw text-center pt-5 pb-1">
+        <p className="text-sm max-w-xl mb-2 font-bold mr-2">Contact: </p>
         <a href="mailto:hello@ahabfadl.com">
-          <p className="text-sm max-w-xl mb-6 font-bold underline underline-offset-auto">
+          <p className="text-sm max-w-xl mb-2 font-bold underline underline-offset-auto">
              hello@ahabfadl.com</p>
         </a>
       </div>
       <div>
         <p className="text-l max-w-xl mb-1 font-bold">Take a look at my work </p>
-        <i class="material-icons">arrow_downward</i>
+        <i className="material-icons">arrow_downward</i>
       </div>
     </div>
   );
