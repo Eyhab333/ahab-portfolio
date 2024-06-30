@@ -30,7 +30,7 @@ function PortfolioItem({ title, imgUrl, stack, link, sourceCode }) {
 
 
         <div className="flex items-center  justify-between flex-wrap font-semibold">
-          <a className="cursor-pointer underline flex-1" target="_blank" href={link}>
+          <a className="cursor-pointer underline text-sky-400 hover:text-blue-600 flex-1" target="_blank" href={link}>
             Live Site
           </a>
           <a
