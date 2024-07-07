@@ -64,9 +64,14 @@ function Footer() {
           </div>
         </div>
       </div>
-      {/* <p className="text-sm mt-2  opacity-50">
-        &copy; {new Date().getFullYear()} Ahab Fadl. All rights reserved.
-      </p> */}
+      <p className="text-sm mt-3  opacity-50">
+        {/* &copy; {new Date().getFullYear()}  */}
+          Visit my  {" "}
+        <a 
+        href="https://ahab-docs.vercel.app" 
+        target="_blank" rel="noopener noreferrer"
+        className="cursor-pointer underline text-sky-400 hover:text-blue-600 flex-1" >Documentation</a>.
+      </p>
     </div>
   );
 }
