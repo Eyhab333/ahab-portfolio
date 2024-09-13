@@ -1,5 +1,11 @@
 export default [
   {
+    title: 'Al-fares Plan',
+    stack: ['NextJS', 'TailWindCSS'],
+    link: 'https://alfares-plan.vercel.app/',
+    sourceCode: 'https://github.com/Eyhab333/plan',
+  },
+  {
     title: 'Designo multi-page website',
     stack: ['NextJS', 'TailWindCSS'],
     link: 'https://eyhab333.github.io/designo-multi-page-website/',
