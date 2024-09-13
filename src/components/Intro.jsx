@@ -5,7 +5,7 @@ function Intro() {
     <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
       <h1 className="text-5xl font-bold md:text-7xl mb-1 mb:3">Ahab Fadl</h1>
       <p className="text-base md:text-xl mb-3 font-medium">
-        Full-Stack Web Developer
+        Digital Marketing Manager
       </p>
       
       {/* <div className="flex justify-center flex-raw text-center pt-5 pb-1">
